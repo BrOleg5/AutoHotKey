@@ -3,6 +3,11 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+; OperaGX
 #o::Run C:\Users\Oleg\AppData\Local\Programs\Opera GX\launcher.exe
+; Joplin
 #j::Run D:\Apps\Joplin\Joplin.exe
+; Windows Terminal
 #t::Run C:\Users\Oleg\AppData\Local\Microsoft\WindowsApps\wt.exe
+; Matlab
+#m::Run D:\Apps\Matlab and Simulink\R2021a\bin\matlab.exe
