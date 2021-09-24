@@ -13,3 +13,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #m::Run D:\Apps\Matlab and Simulink\R2021a\bin\matlab.exe
 ; KeePass 2
 #k::Run D:\Apps\KeePass Password Safe 2\KeePass.exe
+; Word
+#w::Run C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE
