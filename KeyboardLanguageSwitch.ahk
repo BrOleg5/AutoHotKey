@@ -12,8 +12,9 @@ FileEncoding UTF-8
 Process Priority,, High
 
 layouts := GetLayoutList()
-~LControl Up:: SwtichLang(layouts[2])
-~RControl Up:: SwtichLang(layouts[1])
+
+~RShift Up:: SwtichLang(layouts[2])
+~LShift Up:: SwtichLang(layouts[1])
 
 SwtichLang(newLocale) {
     Thread Priority, 1 ; No re-entrance
