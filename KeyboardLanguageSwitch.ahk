@@ -13,8 +13,8 @@ Process Priority,, High
 
 layouts := GetLayoutList()
 
-~RShift Up:: SwtichLang(layouts[2])
-~LShift Up:: SwtichLang(layouts[1])
+<^Space:: SwtichLang(layouts[2])
+<^>!Space:: SwtichLang(layouts[1])
 
 SwtichLang(newLocale) {
     Thread Priority, 1 ; No re-entrance

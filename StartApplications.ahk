@@ -9,6 +9,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #j::Run D:\Apps\Joplin\Joplin.exe
 ; Windows Terminal
 #t::Run C:\Users\Oleg\AppData\Local\Microsoft\WindowsApps\wt.exe
+; Windows Terminal as administrator
+^#t::Run *RunAs C:\Users\Oleg\AppData\Local\Microsoft\WindowsApps\wt.exe
 ; Matlab
 #m::Run D:\Apps\MatlabSimulink\bin\matlab.exe
 ; KeePass 2
