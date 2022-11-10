@@ -3,11 +3,12 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-#IfWinExist Opera, Twitch
+SetTitleMatchMode, RegEx
+
+#IfWinExist \w* - Twitch - Opera
 <^LShift::
-#IfWinExist Opera, YouTube
+#IfWinExist \w* - YouTube - Opera
 <^LShift::
-MsgBox, Script work.
 WinActivate
 Send k
 Send ^t
