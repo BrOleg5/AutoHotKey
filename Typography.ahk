@@ -8,3 +8,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; Emdash
 :::m-::—
+
+; Left-pointing double angle quotation mark
+:::<<::«
+
+; Right-pointing double angle quotation mark
+:::>>::»
